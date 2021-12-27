@@ -1,16 +1,10 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
-import App from './App';
-import "./style.css"
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-
-export default class index extends Component {
- render() {
- return (
- <div>
- <App/>
- </div>
- )
- }
-}
-ReactDOM.render(<App/>,document.getElementById('root'))
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
