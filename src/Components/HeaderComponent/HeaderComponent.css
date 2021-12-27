@@ -1,0 +1,74 @@
+#HeaderComp{
+    width: 100%;
+    background: #e40046;
+    height: 65px;
+    /* align-items: center; */
+    
+   }
+   
+   #HeaderComp article{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 65px;
+   
+   }
+   
+   .logoBlock{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: flex-start;
+   }
+   
+   .searchBlock{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+   
+   }
+   
+   .searchBlock form{
+    display: flex;
+    width: 100%;
+   }
+   
+   .searchBlock form input{
+    display: flex;
+    flex-basis: 82%;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+   }
+   
+   .searchBlock form button{
+    display: flex;
+    flex-basis: 18%;
+    /* padding: 5px; */
+    padding: 10px 0 0 30px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    border: none;
+   }
+   .searchBlock form input{
+    padding: 0 30px;
+   }
+   
+   .AuthMenu{
+    flex-basis: 35%;
+    display: flex;
+    justify-content: flex-end;
+   }
+   
+   .AuthMenu ul {
+    display: flex;
+    list-style: none;
+   }
+   .AuthMenu ul li a{
+    display: flex;
+    /* list-style: none; */
+    text-decoration: none;
+    color: #fff;
+    padding: 0 30px;
+   }
